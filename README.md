@@ -22,5 +22,5 @@ Whenever a javascript code runs a **Global Execution Context** is created. It ha
 
 Javascript manages the execution context through call stack. Whenever any javascript program is run the whole global execution context is pushed inside the stack. As soon as a function is invoked it is pushed inside the stack. After execution of function it gets popped out and control is handed back to from where function was invoked inside global execution context. This cycle repeats until whole global execution code is not completed. In the end, after executing whole code global execution context is also deleted and stack gets empty.
 
-### Window and this in Javascript
+### *Window* and *this* in Javascript
 JavaScript Engine creates a global object whenever you run any JS code. In the case of browsers, this global object is known as *window*. The javascript *this* refer to the object it belongs to.
