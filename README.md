@@ -12,4 +12,4 @@ It means that Javascript can only execute one command at a time, and that too in
 
 Whenever a javascript code is executed a **Global Execution Context** is created. It has two parts and we know them by memory and code components. This execution context is created in two phases.
 
-1. **Memory Creation Phase** - In this phase, javascript will allocate memory to all variables and functions. It allocates memory line by line until whole code isn't completed. It stores value *undefined* in case of variables and whole function code of functions.
+1. **Memory Creation Phase** - In this phase, javascript will allocate memory to all variables and functions. It allocates memory line by line until whole code isn't completed. It stores value *undefined* in case of variables and whole function code of functions while allocating memory.
