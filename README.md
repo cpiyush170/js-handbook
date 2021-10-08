@@ -9,3 +9,7 @@
 It means that Javascript can only execute one command at a time, and that too in a specific order.
 
 ![Javascript Execution Context](https://miro.medium.com/max/700/1*CuL8xsqLb1GhpuHgmDKk0A.png)
+
+Whenever a javascript code is executed a **Global Execution Context** is created. It has two parts and we know them by memory and code components. This execution context is created in two phases.
+
+1. **Memory Creation Phase** -
