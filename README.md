@@ -13,3 +13,5 @@ It means that Javascript can only execute one command at a time, and that too in
 Whenever a javascript code is executed a **Global Execution Context** is created. It has two parts and we know them by memory and code components. This execution context is created in two phases.
 
 1. **Memory Creation Phase** - In this phase, javascript will allocate memory to all variables and functions. It allocates memory line by line until whole code isn't completed. While allocating memory, if it encounters variables it stores value *undefined* for them and whole function code(copy of function code) for functions.
+
+2. **Code Execution Phase** - Now once again javascript runs through the whole javascript program line by line and execute the code. At this time all the calculations and function executions are done.
