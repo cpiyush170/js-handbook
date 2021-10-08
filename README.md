@@ -7,4 +7,5 @@
 
 ### *Javascript* is a synchronous single-threaded language.
 It means that Javascript can only execute one command at a time, and that too in a specific order.
+
 ![Javascript Execution Context](https://miro.medium.com/max/700/1*CuL8xsqLb1GhpuHgmDKk0A.png)
