@@ -34,4 +34,4 @@ JavaScript Engine creates a global object whenever you run any JS code. In the c
 
 **Scope Chain** - When a variable is used in JavaScript, the JavaScript engine will try to find the variable’s value in the current scope. If it could not find the variable, it will look into the outer scope and will continue to do so until it finds the variable or reaches global scope.
 
-If it’s still could not find the variable, it will either implicitly declare the variable in the global scope (if not in strict mode) or return an error. This whole process of finding variables in lexical enviornment of parent is known as scope chain.
+If it’s still could not find the variable, it will either implicitly declare the variable in the global scope (if not in strict mode) or return an error. This whole process of finding variables in lexical enviornment of parent is known as *scope chain*.
