@@ -24,3 +24,6 @@ Javascript manages the execution context through call stack. Whenever any javasc
 
 ### *Window* and *this* in Javascript
 JavaScript Engine creates a global object whenever you run any JS code. In the case of browsers, this global object is known as *window*. The javascript *this* refer to the object it belongs to.
+
+### undefined vs not defined in *Javascript*
+*Undefined* is a special keyword stored in variables like a placeholder during memory allocation (creation) phase of execution context. On the other hand, not defined is javascript mean that variable is defined in memory (or variable was not declared) - so we can't access it. That's why it gives error (eg. x is not defined).
