@@ -38,3 +38,9 @@ If it’s still could not find the variable, it will either implicitly declare t
 
 ### Block Scope & Shadowing in JS
 To group multiple statements we use curly brackets { } - known as block. All variables and functions that we can access inside a block is called block scope. *let* and *const* are stored in separate memory space(known as Block) and that's why they are block scoped. *var* shadow (modify) the value inside it it declared again (other than in funtion scope) and it is called shadowing.
+
+### JavaScript Prototypal Inheritance
+- Every Javascript object has a **prototype property**, which makes inheritance possible in JavaScript.
+- The prototype property of an object is where we put methods and properties that we want **other objects to inherit**.
+- The Constructor's prototype property is **NOT** the prototype of the Constructor itself, it's the prototype of **ALL** instances that are created through it.
+- When a certain method(or property) is called, the search starts in the object itself, and if cannot be found, the search moves on to object's prototype. This continues until the method is found: **prototype chain**.
