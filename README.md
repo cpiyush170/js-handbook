@@ -37,4 +37,4 @@ JavaScript Engine creates a global object whenever you run any JS code. In the c
 If it’s still could not find the variable, it will either implicitly declare the variable in the global scope (if not in strict mode) or return an error. This whole process of finding variables in lexical environment of its parent is known as *scope chain*. The whole chain of lexical environments is called *scope chain*.
 
 ### Block Scope & Shadowing in JS
-To group multiple statements we use curly brackets { } - known as block. All variables and functions that we can access inside a block is called block scope. *let* and *const* are stored in separate memory space(known as Block) and that's why they are block scoped.
+To group multiple statements we use curly brackets { } - known as block. All variables and functions that we can access inside a block is called block scope. *let* and *const* are stored in separate memory space(known as Block) and that's why they are block scoped. *var* shadow (modify) the value inside it it declared again (other than in funtion scope) and it is called shadowing.
