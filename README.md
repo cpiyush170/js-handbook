@@ -29,6 +29,7 @@ JavaScript Engine creates a global object whenever you run any JS code. In the c
 *Undefined* is a special keyword stored in variables like a placeholder during memory allocation (creation) phase of execution context. On the other hand, *not defined* in javascript mean that variable is defined in memory (or variable was not declared) - so we can't access it. That's why it gives error (eg. x is not defined).
 
 ### Scope Chain & Lexical Environment in *Javascript*
+#### Every execution context has a reference to its outer environment, and that outer environment is called Lexical Environment.
 
 **Lexical Environment** -  Lexical as a term means in hierarchy (or in a squence). Whenever an execution context is created, a lexical environment is also created. It consist of local memory along with the lexical environment of its parent.
 
